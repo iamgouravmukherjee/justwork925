@@ -1,0 +1,14 @@
+nav#mynav{
+    background-color: black !important;
+}
+#name, #smallTitle{
+    color: white;
+}
+#copyrightWrapper{
+    background-color: #0f0f0f;
+    padding: 16px 0px 5px;
+}
+div.listItems a{
+    color: white;
+    text-decoration: none !important;
+}

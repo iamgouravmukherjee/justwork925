@@ -1,0 +1,57 @@
+.contactInp{
+    background: transparent !important;
+    outline: none !important;
+    color: #dbdbdd !important;
+    border: 1px solid rgba(255, 255, 255,0.75) !important;
+    opacity: 0.75;
+    font-weight: 200 !important;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .contactInp::placeholder{
+      opacity: .5;
+  }
+  textarea.contactInp{
+      padding: 12px;
+  }
+
+  .sendMsg{
+    background-color: #e54219;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    font-size: 10px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .cntctimgwrp{
+    background-color: white;
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 1.5625em;
+}
+img.imgIcon{
+    height:30px;
+    width:30px;
+}
+
+div.imgwrap{
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+p.infotext{
+    font-size: 14px;
+}
+
+form p{
+    margin-bottom: 0.2rem !important;
+    font-size: 14px;
+}

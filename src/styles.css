@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+.act{
+    color: #e54219 !important;
+}
+.crisp{
+    font-weight: 200 !important;
+}
+.rightheadingcrisp{
+    font-size: 2em;
+    font-weight: 300;
+}
+body {
+    background-color: #0f0f0f;
+    color: #969293;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  .animated.slow {
+    animation-duration: 2s;
+  }

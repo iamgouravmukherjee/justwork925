@@ -1,0 +1,31 @@
+#asideWrapper{
+    color:white; font-weight: 200; padding:40px; background-color:#000101;
+}
+#name{
+    letter-spacing: 6px;text-transform: uppercase;
+}
+#smallTitle{
+    font-size: 0.8rem;text-transform: uppercase;letter-spacing: 9px;margin-left: 5px
+}
+.linkWrap{
+    margin: 3em 0em;
+}
+.listItems{
+    margin: 2em 0px;
+}
+
+div.listItems a{
+    color: white;
+    text-decoration: none !important;
+}
+
+#copyrightWrapper{
+    background-color: #0f0f0f;
+    padding: 16px 0px 5px;
+}
+
+#copyright {
+    font-weight: 100 !important;
+    font-size: 13px;
+    color: #827f80;
+}

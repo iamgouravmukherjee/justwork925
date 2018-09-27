@@ -1,0 +1,49 @@
+<nav id="mynav" class="navbar navbar-expand-lg navbar-dark d-lg-none">
+    <a class="navbar-brand" routerLink="/home" style="visibility:hidden;"> GOURAV PORTFOLIO</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse animated slow fadeIn" id="mynavbar" >
+      <div class="container" id="leftCOntent">
+        
+        <div class="row">
+            <div class="col text-center">
+                <h2 id="name">GOURAV</h2>
+                <h6 id="smallTitle">PORTFOLIO</h6>
+            </div>
+        </div>
+
+          <div class="row justify-content-center my-3">
+            <div class="listItems">
+              <div class="my-3">  <a [class]="addlink1()" routerLink="/" >ABOUT</a>  </div>
+              <div class="my-3">  <a [class]="addlink2()" routerLink="/resume" >RESUME</a></div>
+              <div class="my-3">  <a [class]="addlink3()" routerLink="/contact" >CONTACT</a></div>
+            </div>
+              
+          </div>
+        
+                 <div class="row mt-3 mb-5 justify-content-center">
+                     <div class="mr-3">
+                        <a href="http://www.facebook.com/mgourav3010" target="_blank">
+                            <img src="assets/img/facebook.svg" alt="error" height="24px" width="24px">    
+                         </a>
+                    </div> 
+                    <div>
+                         <a href="https://www.instagram.com/gouravmukherjee09/" target="_blank">
+                          <img src="assets/img/instagram.svg" alt="error" height="24px" width="24px"> 
+                       </a>  
+                      </div>
+                 </div>
+    
+                 <div class="row justify-content-center">
+                     <div  id="copyrightWrapper" class="col-10 offset-sm-1 text-center">
+                            <h6 id="copyright">&#169; Gourav 2018, All rights reserved</h6>
+                    </div>
+    
+                 </div>
+            
+    </div>
+    
+    </div>
+  </nav>
